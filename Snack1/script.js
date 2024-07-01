@@ -9,4 +9,9 @@ In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, c
 
 3 - Avviare tramite ciclo un controllo che confronterà "invitati" con ogni dato contenuto nell'array e, qualora il dato non dovesse trovare un valore uguale a se stesso, verrà stampato un messaggio che nega l'accesso alla festa. OPPURE uno di benvenuto*/
 
+//raccolgo i dati inseriti dall'utente
+const button = document.getElementById('invia');
 
+button.addEventListener('click', function(){
+     let nome = document.getElementById("nome").value;
+ })
