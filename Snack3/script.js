@@ -7,3 +7,13 @@ e calcola la somma di tutte le cifre che compongono il numero.
 4- restituire un risultato.
 */
 
+//recupero il bottone dalla pagina html
+const button = document.getElementById('send');
+
+//aggiungo una funzione al bottone
+button.addEventListener('click', function(){
+
+    //recupero il numero inserito dall'utente
+    let number = document.getElementById('number').value;
+    console.log(number)
+})
