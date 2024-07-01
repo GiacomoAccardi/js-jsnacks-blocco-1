@@ -7,7 +7,6 @@ In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, c
 2 - Creare un array che contenga al suo interno tutti i nomi degli invitati 
      Ci sarà dunque la variabile "invitati" che avrà come valore l'array
 
-3 - Avviare tramite ciclo un controllo che confronterà "invitati" con ogni dato contenuto nell'array e, qualora il dato non dovesse trovare un valore uguale a se stesso, verrà stampato un messaggio che nega l'accesso alla festa. OPPURE uno di benvenuto
+3 - Avviare tramite ciclo un controllo che confronterà "invitati" con ogni dato contenuto nell'array e, qualora il dato non dovesse trovare un valore uguale a se stesso, verrà stampato un messaggio che nega l'accesso alla festa. OPPURE uno di benvenuto*/
 
 
-*/
