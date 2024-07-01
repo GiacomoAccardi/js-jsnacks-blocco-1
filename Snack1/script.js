@@ -23,5 +23,24 @@ button.addEventListener('click', function(){
       let controllo = false;
   
       let messaggio;
+
+     //ciclo l'array per verificare che il nome sia presente e per dare un valore alla variabile "messaggio"
+      for (let i=0; i < invitati.length; i++){
+          
+          if (invitati[i] == nome){
+              check = true
+          } 
+  
+          if(check == true){
+            message = 'Benvenuto!'
+              
+          } else {
+            message = 'Vai via oh!'
+            
+          }
+     
+     //stampo un messaggio sulla pagina
+          document.getElementById("target").innerText = message;
+      }
   
  })
