@@ -14,11 +14,32 @@ const button = document.getElementById('send');
 button.addEventListener('click', function(){
 
     //recupero il numero inserito dall'utente
-    let full_number = document.getElementById('number').value;
-    console.log(full_number)
+    let string = document.getElementById('number').value;
+    console.log(string)
 
-    //separo il numero inserito in quattro differenti numeri
-    let number = full_number.split('')
-    console.log(number)
+    //separo il numero inserito in quattro differenti stringhe
+    const numbers = string.split('')
+    console.log(numbers)
+
+    // creo un arrey vuoto nella quale inserire le stringhe precedentemente splittate sottoforma di valore intero
+
+    let array = []
+
+    for (i = 0 ; i < numbers.length; i++){
+        let single_valor = parseInt(numbers[i]);
+        array.push(single_valor)
+    }
+    console.log(array)
+
+    // faccio la somma dei valori 
+
+    let result = 0;
+
+    for (i = 0 ; i < array.length; i++){
+      result += array[i]
+    }
+    console.log(result)
+
 })
+
 
