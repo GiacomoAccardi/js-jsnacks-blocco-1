@@ -16,5 +16,12 @@ let array = []
 //creo un ciclo for con delle istruzioni
 for(i=1; i <= 6; i++){
     let number = prompt("inserisci un numero");
+
+    if (number % 2 == 0){
+        console.log(number)
+    } else {
+        array.push(number)
+    }
 }
 
+console.log(array)
