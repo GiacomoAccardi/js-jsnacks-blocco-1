@@ -18,5 +18,10 @@ button.addEventListener('click', function(){
       //Creo una lista degli invitati
       let invitati = ['giacomino', 'ezio', 'lucia', 'armando', 'agata'];
       console.log(invitati);
+     
+      // creo due nuove variabili, una per controllare che il nome dell'user sia nella lista e l'altra per poi permettermi di restituirgli un messaggio
+      let controllo = false;
+  
+      let messaggio;
   
  })
