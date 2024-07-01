@@ -14,6 +14,11 @@ const button = document.getElementById('send');
 button.addEventListener('click', function(){
 
     //recupero il numero inserito dall'utente
-    let number = document.getElementById('number').value;
+    let full_number = document.getElementById('number').value;
+    console.log(full_number)
+
+    //separo il numero inserito in quattro differenti numeri
+    let number = full_number.split('')
     console.log(number)
 })
+
