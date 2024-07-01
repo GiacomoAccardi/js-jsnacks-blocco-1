@@ -14,4 +14,9 @@ const button = document.getElementById('invia');
 
 button.addEventListener('click', function(){
      let nome = document.getElementById("nome").value;
+
+      //Creo una lista degli invitati
+      let invitati = ['giacomino', 'ezio', 'lucia', 'armando', 'agata'];
+      console.log(invitati);
+  
  })
