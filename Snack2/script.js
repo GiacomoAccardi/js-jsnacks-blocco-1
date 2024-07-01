@@ -9,3 +9,7 @@ Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo
     >>Ne raccoglie il valore
     >>lo pusha nell'array
 */
+
+//creo un array vuoto
+let array = []
+
